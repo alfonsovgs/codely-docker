@@ -1,0 +1,8 @@
+FROM ubuntu
+
+ENTRYPOINT ["/bin/sh", "-c"] --Default en cualquier docker
+
+CMD [""] --No hay cmd por defecto
+
+-- Podemos definir un CMD y en este caso sera un argumento del ENTRYPOINT
+CMD ["/bin/bash"]
